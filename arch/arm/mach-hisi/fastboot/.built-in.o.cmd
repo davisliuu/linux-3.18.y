@@ -1,0 +1,1 @@
+cmd_arch/arm/mach-hisi/fastboot/built-in.o :=  arm-hisiv500-linux-ld -EL    -r -o arch/arm/mach-hisi/fastboot/built-in.o arch/arm/mach-hisi/fastboot/hibernate_umh.o arch/arm/mach-hisi/fastboot/hibernate_misc.o arch/arm/mach-hisi/fastboot/hibernate_pmmon.o 

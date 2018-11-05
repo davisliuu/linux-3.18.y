@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/hisilicon/higmac/hieth-gmac.o := arm-hisiv500-linux-ld -EL    -r -o drivers/net/ethernet/hisilicon/higmac/hieth-gmac.o drivers/net/ethernet/hisilicon/higmac/board.o drivers/net/ethernet/hisilicon/higmac/higmac.o drivers/net/ethernet/hisilicon/higmac/autoeee/autoeee.o drivers/net/ethernet/hisilicon/higmac/autoeee/phy_id_table.o 

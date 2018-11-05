@@ -1,0 +1,4 @@
+hisi-hi3519v101-hmp-demb.o: \
+ arch/arm/boot/dts/hisi-hi3519v101-hmp-demb.dts \
+ arch/arm/boot/dts/hisi-hi3519v101.dtsi arch/arm/boot/dts/skeleton.dtsi \
+ arch/arm/boot/dts/include/dt-bindings/clock/hi3519-clock.h

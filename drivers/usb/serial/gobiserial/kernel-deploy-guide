@@ -1,0 +1,11 @@
+1. 拷贝当前文件夹到drivers/usb/serial/
+
+2. 修改drivers/usb/serial/Kconfig
+   在结尾, endif之前添加
+   source "drivers/usb/serial/gobiserial/Kconfig"
+
+3. 修改drivers/usb/serial/Makefile
+   在结尾添加
+   obj-$(CONFIG_USB_GOBISERIAL)                    += gobiserial/
+
+4. cd进入gobiserial目录，将Makefile.kernel重命名为Makefile
